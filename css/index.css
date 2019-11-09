@@ -71,6 +71,34 @@ p {
     margin: 0 auto;
 }
 
+header {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: auto 0;
+    padding: 20px 0;
+}
+
+
+header a {
+    text-decoration: none;
+    color: darkslategrey;
+    
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-start;
+   
+}
+
+.header-image {
+    margin-bottom: 20px; 
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,13 +132,47 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* Box Colors */
+.teal {
+    background: teal;
+}
+.gold {
+    background: gold;
+}
+.cadetblue {
+    background: cadetblue;
+}
+.coral {
+    background: coral;
+}
+.crimson {
+    background: crimson;
+}
+.forestgreen {
+    background: forestgreen;
+}
+.darkorchid {
+    background: darkorchid;
+}
+.hotpink {
+    background: hotpink;
+}
+.indigo {
+    background: indigo;
+}
+.dodgerblue {
+    background: dodgerblue;
+}
+ 
+
+
 
 .bottom-content {
     display: flex;
