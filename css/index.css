@@ -232,3 +232,18 @@ hr {
     margin: 10px; 
      
 }
+
+.boxed-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    
+    
+}
+
+.strategy {
+    
+    width: 40%;
+    
+}
