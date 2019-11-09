@@ -213,4 +213,22 @@ footer nav a {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.about-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;   
+}
+
+.about-header p {
+    align-self: center;
+}
+
+hr {
+    border: 1px dashed black;
+    margin: 10px; 
+     
 }
