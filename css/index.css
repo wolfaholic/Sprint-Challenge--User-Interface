@@ -237,13 +237,43 @@ hr {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-   
+    justify-content: space-evenly;
+ 
     
     
 }
 
 .strategy {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 50%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+button {
+    align-self: center;
+    padding: 10px;
+    background-color: white;
+    border: solid black;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 12px;
     
-    width: 40%;
-    
+}
+
+button:active {
+    background-color: red;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+
+.bottom-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
 }
