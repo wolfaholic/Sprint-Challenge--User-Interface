@@ -206,3 +206,11 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* about page */
+
+.header-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
