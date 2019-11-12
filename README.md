@@ -34,29 +34,39 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Answer: Semantic HTML can best be described as tags that were created to make the code more readable for developers and for bots that read the page for accessability and for search engine purposes. They allow the reduction of div properties and clearly define the purpose of each section of code.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Answer: The display properety sets how the element will be displayed. Block level elements will always start on a new line, breaking up the flow of document and take up take up full width available and will not. Inline Elements will only take up as much width as needed. So the differences come that display: block will create a block level element where display: inline will create an inline level element.
 
 3. What are the 4 areas of the box model?
 
+Answer: The four areas of box model are: Margin, Border, Padding and Content.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Answer: align-items: center will align your content on the cross access.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is version control and the purpose is to manage your project files over time as you work and stores your data safely allowing you to work and save much like you would save in a video game (to maybe try something new or even just go back if you made a big boo boo in your game) git is the same way allowing devlopers to not just work safely independatly but to allow mulitiple people to collaborate and work without damaging the project or overwriting each other. This collaboration and ability to see the various branches makes working as a team easy (at least form the software side of things)
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add your project manager as collaborator on Github.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your project manager as a reviewer on the pull-request
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
  
 

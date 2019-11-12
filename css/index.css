@@ -71,6 +71,34 @@ p {
     margin: 0 auto;
 }
 
+header {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: auto 0;
+    padding: 20px 0;
+}
+
+
+header a {
+    text-decoration: none;
+    color: darkslategrey;
+    
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-start;
+   
+}
+
+.header-image {
+    margin-bottom: 20px; 
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,13 +132,47 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/* Box Colors */
+.teal {
+    background: teal;
+}
+.gold {
+    background: gold;
+}
+.cadetblue {
+    background: cadetblue;
+}
+.coral {
+    background: coral;
+}
+.crimson {
+    background: crimson;
+}
+.forestgreen {
+    background: forestgreen;
+}
+.darkorchid {
+    background: darkorchid;
+}
+.hotpink {
+    background: hotpink;
+}
+.indigo {
+    background: indigo;
+}
+.dodgerblue {
+    background: dodgerblue;
+}
+ 
+
+
 
 .bottom-content {
     display: flex;
@@ -143,4 +205,75 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about page */
+
+.header-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.about-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;   
+}
+
+.about-header p {
+    align-self: center;
+}
+
+hr {
+    border: 1px dashed black;
+    margin: 10px; 
+     
+}
+
+.boxed-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ 
+    
+    
+}
+
+.strategy {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 50%;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+button {
+    align-self: center;
+    padding: 10px;
+    background-color: white;
+    border: solid black;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 12px;
+    
+}
+
+button:active {
+    background-color: red;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+
+.bottom-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
 }
