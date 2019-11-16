@@ -235,11 +235,12 @@ hr {
 
 .boxed-content {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
- 
-    
+    flex-direction: column;  
+}
+
+.section-group {
+    display:flex;
+    width:100%;
     
 }
 
